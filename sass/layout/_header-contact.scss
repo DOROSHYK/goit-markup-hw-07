@@ -11,11 +11,10 @@
   color: var(--massive-text-color);
 }
 
-/* буде модіфікатором */
 .site-nav .current {
   color: var(--color-forces-color);
 }
-/* буде модіфікатором */
+
 .active-line::after {
   position: absolute;
   content: '';
