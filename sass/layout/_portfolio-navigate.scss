@@ -29,13 +29,16 @@
   border: transparent;
 }
 
-.navigation-page:not(:last-child) {
-  margin-right: 8px;
+.navigation-page {
+  &:not(:last-child) {
+    margin-right: 8px;
+  }
 }
 
 .navigation {
   margin-top: 0;
   margin-bottom: 50px;
+
   display: flex;
   justify-content: center;
   text-align: center;

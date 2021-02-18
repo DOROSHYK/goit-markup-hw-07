@@ -39,6 +39,8 @@
   }
 }
 
-.team-link:not(:last-child) {
-  margin-right: 10px;
+.team-link {
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
 }

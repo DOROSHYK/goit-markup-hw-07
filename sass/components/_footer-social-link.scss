@@ -44,8 +44,10 @@
   fill: #ffffff;
 }
 
-.webstydio-item:not(:last-child) {
-  margin-right: 10px;
+.webstydio-item {
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
 }
 
 footer .color {
