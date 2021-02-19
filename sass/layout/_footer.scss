@@ -1,5 +1,5 @@
 footer {
-  background-color: var(--footer-background-color);
+  background-color: $footer-background-color;
   padding-bottom: 60px;
   padding-top: 60px;
 }
@@ -36,6 +36,6 @@ footer .link {
 
   &:hover,
   &:focus {
-    color: var(--color-forces-color);
+    color: $color-forces-color;
   }
 }

@@ -1,12 +1,13 @@
 .button-box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include flex-center();
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
 }
 
 .button-modal {
-  color: var(--white-bg-color);
-  background-color: var(--color-forces-color);
+  color: $white-bg-color;
+  background-color: $color-forces-color;
   font-family: inherit;
   border-radius: 4px;
   border-color: transparent;

@@ -12,13 +12,13 @@
   justify-content: center;
   width: 44px;
   height: 44px;
-  background-color: var(--white-bg-color);
+  background-color: $white-bg-color;
   border-radius: 50%;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   &:hover,
   &:focus {
-    background-color: var(--color-forces-color);
+    background-color: $color-forces-color;
   }
 }
 
@@ -30,12 +30,12 @@
 
   .social-link:hover &,
   .social-link:focus & {
-    fill: var(--white-bg-color);
+    fill: $white-bg-color;
   }
 
   .webstydio-link:hover &,
   .webstydio-link:focus & {
-    fill: var(--white-bg-color);
+    fill: $white-bg-color;
   }
 }
 

@@ -14,8 +14,8 @@
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  background: var(--footer-background-color);
-  color: var(--massive-text-color);
+  background: $footer-background-color;
+  color: $massive-text-color;
 }
 
 .button-subscribe-container {
@@ -40,8 +40,8 @@
   padding-bottom: 10px;
   padding-left: 29px;
 
-  color: var(--white-bg-color);
-  background-color: var(--color-forces-color);
+  color: $white-bg-color;
+  background-color: $color-forces-color;
   border-color: transparent;
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 

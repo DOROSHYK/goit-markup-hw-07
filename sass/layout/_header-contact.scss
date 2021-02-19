@@ -1,5 +1,5 @@
 .site-nav .link {
-  color: var(--main-color-titles-color);
+  color: $main-color-titles-color;
   text-decoration: none;
   display: block;
   padding-top: 32px;
@@ -8,7 +8,7 @@
 }
 
 .site-nav .text-secondary {
-  color: var(--massive-text-color);
+  color: $massive-text-color;
 }
 
 .active-line {
@@ -21,7 +21,7 @@
     border-radius: 2px;
     bottom: 0;
 
-    background-color: var(--color-forces-color);
+    background-color: $color-forces-color;
   }
 }
 
@@ -35,7 +35,7 @@
     border-radius: 2px;
     bottom: 0;
 
-    background-color: var(--color-forces-color);
+    background-color: $color-forces-color;
   }
 }
 
@@ -50,7 +50,7 @@
   display: flex;
 
   & .current {
-    color: var(--color-forces-color);
+    color: $color-forces-color;
   }
 }
 
@@ -81,12 +81,12 @@
 .maill {
   height: 12px;
   width: 16px;
-  fill: #757575;
+  fill: $massive-text-color;
   margin-right: 10px;
 
   .link:hover &,
   .link:focus & {
-    fill: var(--color-forces-color);
+    fill: $color-forces-color;
   }
 }
 
@@ -100,21 +100,22 @@
   height: 16px;
   width: 10px;
   margin-right: 10px;
-  fill: #757575;
+  fill: $massive-text-color;
 
   .link:hover &,
   .link:focus & {
-    fill: var(--color-forces-color);
+    fill: $color-forces-color;
   }
 }
 
 .item .link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flex-center();
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
 
   &:hover,
   &:focus {
-    color: var(--color-forces-color);
+    color: $color-forces-color;
   }
 }

@@ -1,5 +1,5 @@
 .examples .examples-title {
-  color: var(--main-color-titles-color);
+  color: $main-color-titles-color;
 
   font-weight: 700;
   font-size: 18px;
@@ -50,7 +50,7 @@
 }
 
 .examples .variety {
-  color: var(--massive-text-color);
+  color: $massive-text-color;
 
   font-weight: 400;
   font-size: 16px;
